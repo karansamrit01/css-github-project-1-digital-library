@@ -17,7 +17,11 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 10px grey;
     border: 1px solid gold;
-    height: 400px;
+    height: 250px;
+}
+
+.book-card-1:hover{
+    transform: translateY(-4px);
 }
 
 .confirmed-button {
