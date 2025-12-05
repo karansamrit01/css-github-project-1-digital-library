@@ -48,7 +48,7 @@ button:hover{
 }
 
 .footer {
-    background: #1a1a1a;
+    background: #4b3D2D;
     color: #ffffff;
     padding: 40px 0 10px;
     font-family: Arial, sans-serif;
@@ -90,7 +90,7 @@ button:hover{
 }
 
 .footer-box a {
-    color:#4b3D2D;
+    color:#ffff;
     text-decoration: none;
 }
 
