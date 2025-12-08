@@ -1,21 +1,21 @@
 body {
-    margin: 0;
+    margin-top: 80px;
     padding: 0;
-    background-color: #E3D4B9;
+    background-color: #FFFCF2;
 }
 
 
 .container-login-signup {
-    width: 750px;
-    margin: auto;
-    margin-top: 40px;
+    width: 100%;
+    max-width: 750px;           
+    min-height: 400px;          
+    margin: 30px auto 0 auto;   
+    background-color: #d3ca96;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    background: #C2B280;
-    border-radius: 15px;
-    border: 1px solid burlywood;
+    align-items: center;
     gap: 0px;
+    border-radius: 15PX;
 }
 
 .container-login-signup:hover {
@@ -57,7 +57,7 @@ input[type="password"] {
     width: 200PX;
     height: 40PX;
     padding: 12px;
-    background: #68462c;
+    background: #483D2D;
     color: white;
     font-size: 18px;
     border-radius: 10px;
@@ -87,7 +87,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
+    position:relative ;
+    z-index: 1;
     top: 0;
 }
 
@@ -122,4 +123,48 @@ body {
     display: flex;
     gap: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .container-login-signup {
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container-login-signup {
+        flex-direction: column;      
+        align-items: center;
+        padding: 20px;
+    }
+
+    .subcontainer {
+        width: 90%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .image-box img {
+        width: 80%;
+        max-width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-login-signup {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .subcontainer {
+        width: 100%;
+    }
+
+    .image-box img {
+        width: 70%;
+        max-width: 250px;
+    }
 }

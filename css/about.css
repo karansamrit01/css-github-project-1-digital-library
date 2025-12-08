@@ -3,3 +3,253 @@ body {
     padding: 0;
     background-color: #E3D4B9;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.about {
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.about-info {
+    padding: 20px;
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.head-1 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.about-para {
+    font-size: 18px;
+    line-height: 0.6cm;
+    text-align: justify;
+}
+
+.box-1 {
+    width: 290px;
+    height: 340px;
+    margin: 20px;
+    border: 1px solid rgb(242, 227, 227);
+    background-color: cornsilk;
+    box-shadow: 1px 1px 5px 1px rgb(222, 222, 225);
+    border-radius: 15px;
+}
+
+.box-1:hover {
+    border: 3px solid rgb(189, 177, 177);
+    transition: 3s;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imgs-about {
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-head {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.info {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 25px;
+    padding-bottom: 1px;
+    line-height: 0.6cm;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.link {
+    font-size: 18px;
+    padding: 20px;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .head-1 {
+        justify-content: center;
+        font-size: 19px;
+    }
+
+    .about-para {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .box-1 {
+        width: 290px;
+        height: 340px;
+        background-color: cornsilk;
+        box-shadow: 10px 10px 5px 1px rgb(242, 242, 246);
+        border: 0;
+    }
+
+    .all-team {
+        font-size: 28px;
+        font-weight: 550;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .sub-team {
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+        border: 1px solid rgb(242, 227, 227);
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 40px;
+        position: relative;
+
+    }
+
+    .sub-team:hover {
+        border-color: skyblue;
+    }
+
+    .team-imgs {
+        height: 90px;
+        border-radius: 50%;
+        position: absolute;
+        align-items: center;
+        left: 50px;
+        top: -50px;
+        padding: 0px;
+        width: 100px;
+
+    }
+
+
+    .name-imgs {
+        font-size: 18px;
+        font-weight: 550;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+}
+
+.all-team {
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.team-member {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid rgb(238, 235, 235);
+
+}
+
+.team-member:hover {
+    border-width: 2px;
+    border-color: skyblue;
+}
+
+
+.team-imgs {
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    left: 50px;
+    top: -50px;
+    padding: 0px;
+    width: 100px;
+    display: block;
+    border: 2px solid rgb(238, 235, 235);
+}
+
+.team-imgs:hover {
+    border-width: 2px;
+    border-color: skyblue;
+}
+
+
+.name-imgs {
+    font-size: 18px;
+    font-weight: 550;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+
+.icon {
+    height: 20px;
+    padding-top: 10px;
+}
