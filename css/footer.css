@@ -3,11 +3,12 @@
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-   background-color: #4B3D2D;
+    background-color: #4B3D2D;
     color: white;
     margin-top: 50px;
 }
-.main-logo{
+
+.main-logo {
     border-radius: 50%;
     width: 60px;
 }
@@ -16,15 +17,15 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width:900px;
+    width: 900px;
 }
 
 .footer-section-2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 700px; 
-    margin-left:20px ;
+    width: 700px;
+    margin-left: 20px;
 }
 
 
@@ -42,14 +43,14 @@
     flex-direction: column;
     gap: 20px;
     width: 700px;
-   
+
 }
 
 .social-icon-container {
     display: flex;
     gap: 15px;
     margin-top: 10px;
-  
+
 }
 
 .social-icon {
@@ -59,7 +60,7 @@
     background-color: white;
     border-radius: 50%;
     padding: 0px;
-    
+
 }
 
 .contact-item {
@@ -68,31 +69,34 @@
     gap: 10px;
     cursor: pointer;
     margin-top: 5px;
-   text-decoration: none;
+    text-decoration: none;
 }
 
 .menu-subitem {
     text-decoration: none;
     color: white;
     vertical-align: text-top;
-   margin-left:none ;
+    margin-left: none;
 }
-.location-text{
+
+.location-text {
     margin-bottom: 47px;
 }
 
-.calling-logo{
+.calling-logo {
     width: 22px;
     vertical-align: middle;
-    
+
 }
-.pointer-provide{
+
+.pointer-provide {
     cursor: pointer;
 }
-.contact-division{
+
+.contact-division {
     text-decoration: none;
-     color: white;
-     margin-left: 5px;
+    color: white;
+    margin-left: 5px;
 }
 
 @media (max-width: 768px) {
