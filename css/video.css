@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.video video {
+    width: 60%;
+    max-width: 600px;
+    border: 3px solid rgb(148, 143, 143);
+    border-radius: 15px;
+    padding: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.video video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-color: rgb(180, 106, 106);
+}
+
+.text {
+    text-align: center;
+}
+
+.navbar-main-container {
+    background-color: #4B3D2D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 30px;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+}
+
+.auth-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}

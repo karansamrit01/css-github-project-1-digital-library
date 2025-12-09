@@ -2,6 +2,10 @@ body{
     background-color: antiquewhite;
     margin-left: 0px;
 }
+.book-name{
+    text-align: center;
+    font-weight: bold;
+}
 .book-container-2 {
     display: flex;
     gap: 30px;
