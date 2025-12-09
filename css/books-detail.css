@@ -14,8 +14,15 @@ body {
 
 .head-info {
     color: #302d2d;
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.head-detail {
+    font-weight: 400;
+    text-align: center;
 }
 
 .card {
@@ -25,7 +32,7 @@ body {
     border: 1px solid rgb(222, 220, 220);
     border-radius: 10px;
     background-color: #c2B2B0;
-    
+
 }
 
 .card:hover {
@@ -71,7 +78,7 @@ body {
     cursor: pointer;
 }
 
-.view-button a{
+.view-button a {
     text-decoration: none;
     color: white;
 }
@@ -82,18 +89,18 @@ body {
 }
 
 
-.kids-back{
+.kids-back {
     display: flex;
     justify-content: center;
     margin: 20px;
     border-radius: 100%;
-    }
+}
 
-.back-image{
+.back-image {
     border: 1px;
     border-radius: 100%;
-}  
+}
 
-.back-image:hover{
+.back-image:hover {
     transform: translateY(-4px);
 }

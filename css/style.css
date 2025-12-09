@@ -69,7 +69,7 @@ body {
     text-decoration: none;
 }
 
-.learn-more-button a{
+.learn-more-button a {
     text-decoration: none;
     color: white;
 }
@@ -87,29 +87,105 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    .navbar-main-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .nav-links-container,
+    .auth-links-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+
     .main-content-container {
         flex-direction: column;
         align-items: center;
-    }
-
-    .project-heading {
-        font-size: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
+        text-align: center;
+        padding: 10px;
     }
 
     .main-image {
-        height: 300px;
+        height: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .main-text-content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .project-heading {
+        font-size: 32px;
+        line-height: 38px;
     }
 
     .project-subheading {
-        font-size: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
-    .main-buttons-container {
+    .main-text-content button {
+        display: block;
+        margin: 10px auto;
+    }
+
+
+    .oval-box {
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 70%;
+        max-width: 250px;
+    }
+
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .footer-section-1,
+    .footer-section-2,
+    .footer-section-3,
+    .footer-section-4 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .project-heading {
+        font-size: 26px;
+    }
+
+    .project-subheading {
+        font-size: 16px;
+    }
+
+    .main-image {
+        height: 200px;
+    }
+
+    .box {
+        width: 80%;
     }
 }
 
@@ -135,9 +211,9 @@ body {
     font-size: 20px;
 }
 
-.box a{
+.box a {
     text-decoration: none;
-    color:brown;
+    color: brown;
 }
 
 .project-sub-heading {
@@ -150,5 +226,3 @@ body {
     font-family: cursive;
     font-style: italic;
 }
-
-
